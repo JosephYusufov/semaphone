@@ -11,7 +11,7 @@
 int main() {
 
   int shmd;
-  char * data;
+  char *data;
   char input[3];
 
   shmd = shmget(KEY, SEG_SIZE, IPC_CREAT | 0644);
